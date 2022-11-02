@@ -1,100 +1,8 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<style>
-#upper {
-	background-color: #181b24;
-    flex-grow:2;
-    border-radius: 25px;
-    padding: 10px;
-    color: #cedae0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #2d68b5;
-}
-
-/* Style the header */
-header {
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  padding: 10px;
-  text-align: center;
-}
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-
-nav{
-    background-color: #cedae0;
-    padding: 20px;
-    border-radius: 15px;
-}
-
-article{
-    background-color: #919a9e;
-    padding: 20px;
-    padding-top: 5px;
-    padding-left: 30px;
-    border-radius: 15px;
-}
-
-#artstation{
-    background-color:#232526;
-    padding:20px;
-    border-radius:20px;
-}
-
-</style>
 
 <div id = upper >
     <h1>Hi! Im Hedenrag </h1>
 
-    <a>I'm mainly a proggramer but also do animation and moddeling. </a>
+I'm mainly a proggramer but also do animation and moddeling. 
 </div>
 
 <div>
@@ -139,16 +47,16 @@ article{
             </p>
         </article>
         
-    </section>
-    <div id = artstation>
-        <h3>Artstation</h3>
+</section>
+<div id = artstation>
+ <h3>Artstation</h3>
 
-        <a href="https://www.artstation.com/artwork/14kXvq"> <img src="https://cdna.artstation.com/p/assets/images/images/050/584/310/20220614065514/smaller_square/gandasdof-1b-ottomay-final-002.jpg?1655207714" alt="Dragon" width=32%>
-        <a href="https://www.artstation.com/artwork/xYv1G4"> <img src="https://cdna.artstation.com/p/assets/images/images/047/761/982/20220614065948/smaller_square/gandasdof-1b-otto-may-enviroment-render-01.jpg?1655207989" alt="KingsStudy" width=32%>
-        <a href="https://www.artstation.com/artwork/Arv885"> <img src="https://cdnb.artstation.com/p/assets/covers/images/046/337/507/smaller_square/gandasdof-gandasdof-renderpistola-1.jpg?1644878203" alt="Handgun" width=32%>
-        <br>
-        <a href="https://www.artstation.com/artwork/mzw5kZ"> <img src="https://cdna.artstation.com/p/assets/images/images/050/584/498/original/gandasdof-t4ottomay.gif?1655208072" alt="LatestUpload" width=96%>
-    </div>
+<a href="https://www.artstation.com/artwork/14kXvq"> <img src="https://cdna.artstation.com/p/assets/images/images/050/584/310/20220614065514/smaller_square/gandasdof-1b-ottomay-final-002.jpg?1655207714" alt="Dragon" width=32%>
+<a href="https://www.artstation.com/artwork/xYv1G4"> <img src="https://cdna.artstation.com/p/assets/images/images/047/761/982/20220614065948/smaller_square/gandasdof-1b-otto-may-enviroment-render-01.jpg?1655207989" alt="KingsStudy" width=32%>
+<a href="https://www.artstation.com/artwork/Arv885"> <img src="https://cdnb.artstation.com/p/assets/covers/images/046/337/507/smaller_square/gandasdof-gandasdof-renderpistola-1.jpg?1644878203" alt="Handgun" width=32%>
+<br>
+<a href="https://www.artstation.com/artwork/mzw5kZ"> <img src="https://cdna.artstation.com/p/assets/images/images/050/584/498/original/gandasdof-t4ottomay.gif?1655208072" alt="LatestUpload" width=96%>
+</div>
 
 </div>
 
